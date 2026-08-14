@@ -1,0 +1,5 @@
+npm init -y //package . json 
+npm i express
+
+npx nodemon  server start
+ npm i dotenv ... for env file~
