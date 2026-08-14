@@ -40,7 +40,7 @@ function sum() {
     setReview(mode === "dry-run" ? "Tracing the dry run..." : "Reviewing the code...");
 
     try {
-      const response = await axios.post("http://localhost:3000/ai/get-review", {
+      const response = await axios.post("https://code-reviewer-problem-solving-helper.onrender.com/ai/get-review", {
         code,
         mode,
       });
